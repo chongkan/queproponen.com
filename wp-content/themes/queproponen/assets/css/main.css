@@ -1,0 +1,110 @@
+html {
+	margin: 0px;
+}
+.list-group a {
+	font-size: 0.8em;
+}
+.content {
+	margin: 0px 10px;
+}
+th  span.sector-title-as-plan {
+	font-weight: normal;
+	font-size: 0.8em;
+	color: #000;
+	display: block;
+	width: 100%;
+	background-color: #FFF;
+	padding: 5px;
+}
+th  span.bandera {
+
+	display: block;
+	width: 32px;
+	height: 21px;
+	position: relative;
+	float: right;
+	background: url(../img/banderas.png) 0 0 no-repeat;
+	top: -30px;
+	border: 1px solid #FFF;
+}
+.partido-pln span.bandera {
+	background-position: 0px 0px;
+}
+.partido-fa span.bandera {
+	background-position: 0px -84px;
+}
+.partido-pac span.bandera {
+	background-position: 0px -44px;
+} 
+.partido-pusc span.bandera {
+	background-position: 0px -22px;
+} 
+.partido-ml span.bandera {
+	background-position: 0px -63px;
+} 
+.header-pln {
+	background-color: #327548;
+	color: #FFF;
+}
+
+.header-pusc {
+	background-color: #007bfb;
+	color: #b02111;
+}
+.header-fa {
+	background-color: #ffe732;
+}
+
+.header-ml {
+	background-color: #b02111;
+	color: #FFF;
+}
+.header-pac {
+	background-color: #f42b00;
+	color: #ffe732;
+}
+/* columnas */
+td.partido-pln {
+	background-color: #327548;
+	color: #FFF;
+}
+td.partido-pusc {
+	background-color: #007bfb;
+}
+td.partido-pac {
+	background-color: #f42b00;
+}
+
+td.partido-fa {
+	background-color: #ffe732;
+}
+td.partido-ml {
+	background-color: #b02111;
+}
+
+div#tabla-comparativa {
+	margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+	/*Modal*/
+	.modal-dialog {
+		width: 80%;
+	}
+}
+
+span.detalle-plan, span.partido-plan {
+	display: none;
+}
+
+
+#menuSector {
+	min-width: 200px;
+}
+#selector-partidos {
+	float: right;
+}
+
+.partido-plan-PLN {
+	color: #327548;
+}
